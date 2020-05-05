@@ -4,8 +4,9 @@ Bellhop Simulation
 `Bellhop Python Simulation` relies on the following libraries:
 ```bash
 - fortran compiler
-- Arlpy
 - Acoustic Toolbox
+- Arlpy
+- Python3
 ```
 First make sure you have `gfortran`,`gcc` and `gcxx compiler`.
 
@@ -33,7 +34,44 @@ cd at/at
 make
 sudo make install
 ```
-Once installed, let's tell the system where to find our new libraries: (Please replace `ns` with your `hostname`
+
+Once installed, let's tell the system where to find our new libraries: (Please replace `ns` with your `hostname`)
 ```bash
 export PATH=/home/ns/Documents/at/at/Bellhop:/home/ns/Documents/at/at/:$PATH
 ```
+## Step 1. Install compilers and building tools
+First let's check which Linux are you running with the command:
+```bash
+lsb_release -ds
+```
+Will return something like:
+```bash
+Debian GNU/Linux 9.8 (stretch)
+```
+* For *Debian/Ubuntu/Linux Mint*:
+```bash
+sudo apt-get update
+sudo apt-get install wget nano gfortran m4 build-essential
+```
+* Also check your python version, it is recommanded to use python3.
+```bash
+python --version
+```
+Will return something like:
+```bash
+Python 2.7.18rc1
+```
+or you might have something like this if you have python3 correctly installed:
+```bash
+python3 --version
+```
+Will return something like:
+```bash
+Python 3.8.2
+```
+
+## Step 2. Install arlpy tools
+Run the following command in your terminal. (It worked without sudo permission as well. It is recommanded to use sudo to installed everything properly.)
+
+`pip install arlpy`
+
