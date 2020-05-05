@@ -25,8 +25,8 @@ export FC=gfortran
 ```
 `Acoustic Toolbox` is in repo folder named `AcousticToolbox`. You can download from there or follow the instruction below.
 
-# Install latest `Acoustic Toolbox` (March 2019) 
-Please make sure you have newer version of Bellhop.
+## Install latest `Acoustic Toolbox` (March 2019) 
+Please make sure you have newer version of [Bellhop](https://oalib-acoustics.org/).
 ```bash
 cd ${HOME}/Documents
 wget http://telecom.dei.unipd.it/ns/woss/files/at.zip
