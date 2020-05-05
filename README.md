@@ -14,7 +14,7 @@ First make sure you have `gfortran`,`gcc` and `gcxx compiler`.
 
 Please checked if the GNU Fortran compiler was in my system by typing `gfortran --version`:
 ```bash
-GNU Fortran (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0
+GNU Fortran (Ubuntu 7.4.0-1ubuntu1~20.04.1) 7.4.0
 Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
