@@ -1,5 +1,4 @@
-# ECED6575
-Bellhop Simulation
+# ECED6575 - Bellhop Simulation
 
 `Bellhop Python Simulation` relies on the following libraries:
 ```bash
