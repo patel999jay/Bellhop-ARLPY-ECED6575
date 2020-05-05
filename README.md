@@ -74,7 +74,17 @@ Python 3.8.2
 ## Step 2. Install arlpy tools
 Run the following command in your terminal. (It worked without sudo permission as well. It is recommanded to use sudo to installed everything properly.)
 
-`pip install arlpy`
+`pip3 install arlpy`
+
+or
+
+`python3 -m pip install arlpy`
+
+or
+
+`sudo -H pip3 install arlpy`
+
+[More Details](https://pypi.org/project/arlpy/)
 
 ## Steo 3. Interactive IPython Notebooks - Jupyter Notebook (Optional)
 The Jupyter notebook is a web-based notebook environment for interactive computing.
@@ -100,3 +110,20 @@ Launch with:
 ### Running in a remote installation
 
 You need some configuration before starting Jupyter notebook remotely. See [Running a notebook server](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html).
+
+### Example Notebook of Bellhop
+
+You can find the example notebook of Bellhop in the repo folder named 'sample'. Follow the instruction and commands in the notebook to perform basic simulations with bellhop.
+
+
+## Troubleshoot
+
+To chech you have correctly set your PATH for acoustic toolbox, please type this in your command prompt
+```bash
+which bellhop.exe
+```
+It will show you path of your bellhop.exe, same like this,
+
+```bash
+/home/ns/Documents/at/bin/bellhop.exe
+```
