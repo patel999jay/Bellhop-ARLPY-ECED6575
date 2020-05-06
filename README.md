@@ -87,7 +87,7 @@ or
 
 [More Details](https://pypi.org/project/arlpy/)
 
-## Steo 3. Interactive IPython Notebooks - Jupyter Notebook (Optional)
+## Step 3. Interactive IPython Notebooks - Jupyter Notebook (Optional)
 The Jupyter notebook is a web-based notebook environment for interactive computing.
 ### Installation
 You can find the installation documentation for the
