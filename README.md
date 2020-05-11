@@ -37,7 +37,7 @@ make
 sudo make install
 ```
 
-Once installed, let's tell the system where to find our new libraries: (Please replace `ns` with your `hostname`)
+Once installed, let's tell the system where to find our new libraries: ( Please replace `ns` with your `hostname`)
 ```bash
 export PATH=/home/ns/Documents/at/at/Bellhop:/home/ns/Documents/at/at/:$PATH
 ```
