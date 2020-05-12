@@ -57,21 +57,21 @@ Will return something like:
     sudo apt-get install wget nano gfortran m4 build-essential
     ```
 * Also check your python version, it is recommanded to use python3.
-    ```bash
-    python --version
-    ```
+   
+        $ python --version
+   
 Will return something like:
-    ```bash
-    Python 2.7.18rc1
-    ```
+    
+         Python 2.7.18rc1
+    
 or you might have something like this if you have python3 correctly installed:
-    ```bash
-    python3 --version
-    ```
+   
+        $ python3 --version
+   
 Will return something like:
-    ```bash
-    Python 3.8.2
-    ```
+    
+         Python 3.8.2
+    
 
 ## Step 2. Install arlpy tools
 
