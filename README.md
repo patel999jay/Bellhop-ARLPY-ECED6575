@@ -77,15 +77,15 @@ Will return something like:
 
 Run the following command in your terminal. (It worked without sudo permission as well. It is recommanded to use sudo to installed everything properly.)
 
-    `pip3 install arlpy`
+    $ pip3 install arlpy
 
 or
 
-    `python3 -m pip install arlpy`
+    $ python3 -m pip install arlpy
 
 or
 
-    `sudo -H pip3 install arlpy`
+    $ sudo -H pip3 install arlpy
 
 [More Details](https://pypi.org/project/arlpy/)
 
