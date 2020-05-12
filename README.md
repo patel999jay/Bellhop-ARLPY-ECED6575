@@ -36,6 +36,7 @@ cd at/at
 make
 sudo make install
 ```
+If something goes wrong, you need to do `make clean` in order to clear all necessary files and then again run the above mentioned steps.
 
 Once installed, let's tell the system where to find our new libraries: ( Please replace `ns` with your `hostname`)
 ```bash
