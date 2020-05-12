@@ -126,11 +126,11 @@ You can find the example notebook of Bellhop in the repo folder named `sample`. 
 ## Troubleshoot
 
 To chech you have correctly set your PATH for acoustic toolbox, please type this in your command prompt
-    ```bash
-    which bellhop.exe
-    ```
+    
+    $ which bellhop.exe
+   
 It will show you path of your bellhop.exe, same like this,
 
-    ```bash
+    
     /home/ns/Documents/at/bin/bellhop.exe
-    ```
+    
