@@ -45,18 +45,18 @@ export PATH=/home/ns/Documents/at/at/Bellhop:/home/ns/Documents/at/at/:$PATH
 ## Step 1. Install compilers and building tools
 
 First let's check which Linux are you running with the command:
-    ```bash
+    
     lsb_release -ds
-    ```
+    
 Will return something like:
-    ```bash
+    
     Debian GNU/Linux 9.8 (stretch)
-    ```
+    
 * For *Debian/Ubuntu/Linux Mint*:
-    ```bash
-    sudo apt-get update
-    sudo apt-get install wget nano gfortran m4 build-essential
-    ```
+    
+        $ sudo apt-get update
+        $ sudo apt-get install wget nano gfortran m4 build-essential
+    
 * Also check your python version, it is recommanded to use python3.
    
         $ python --version
