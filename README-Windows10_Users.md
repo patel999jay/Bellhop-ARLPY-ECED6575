@@ -25,8 +25,14 @@ So your file structure should look like this:
  For example i had extracted my files in the folder which is at `C:\Users\Jay\Documents\bellhop` then put the same path in the above box.
  
  ## Anaconda 
- - Now Download and install [Anaconda](https://www.anaconda.com/products/individual) for better python enviornment handling. Basically we need jupyter notebook to visualize our simulation properly.(Recommanded)
+ - Now Download and install [Anaconda](https://www.anaconda.com/products/individual) for better python enviornment handling. Basically we need jupyter notebook to visualize our simulation properly.(Recommended)
  - Download Python3.7 based 64 bit [installer](https://www.anaconda.com/products/individual) and install it.
  - Don't mark the option *Add Anaconda3 to the system PATH env*.
  - Open Anaconda Navigator from start menu. Go to Environments and `Create` new enviornment name `bellhop` and select `python 3.7`(you can select any python version above 3.4)
+ - Install `numpy package` to `bellhop` environment, and then click on the play button and select `open terminal` and it will open a command prompt of your python virtual environment.
+ 
+ you will see something like this,
+ ```bash
+ (bellhop) C:\Users\Jay>
+ ```
  
