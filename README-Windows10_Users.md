@@ -1,3 +1,18 @@
+# ECED6575 - Bellhop Simulation
+--------------------------------------------------------------------------------------------------
+### Author : Jay Patel
+
+`Bellhop Python Simulation` relies on the following libraries:
+```bash
+- fortran compiler(optional)
+- Acoustic Toolbox
+- Windows Binaries
+- Arlpy
+- Python3
+- Anaconda3(optional)
+- Jupyter Notebook(optional)
+```
+
 Please check if you have python2 or python3 properly install in your windows 10. If you don't have them install in the machine, please refer [this link](https://www.python.org/downloads/).
 
 Note : Make sure you download appropriate version of python for your machine. Most people will have [Win 10 x86-64 bit](https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe), 
