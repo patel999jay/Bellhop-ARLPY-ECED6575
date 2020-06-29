@@ -35,4 +35,27 @@ So your file structure should look like this:
  ```bash
  (bellhop) C:\Users\Jay>
  ```
+ ## Install arlpy python package
  
+    $ pip install arlpy
+    
+- This will install all necessary packages to your local virtual environment and You will see below message.
+```bash
+Successfully built arlpy utm bokeh
+Installing collected packages: scipy, utm, python-dateutil, pytz, pandas, PyYAML, MarkupSafe, Jinja2, pillow, pyparsing, packaging, tornado, typing-extensions, bokeh, arlpy
+Successfully installed Jinja2-2.11.2 MarkupSafe-1.1.1 PyYAML-5.3.1 arlpy-1.7.0 bokeh-2.1.1 packaging-20.4 pandas-1.0.5 pillow-7.1.2 pyparsing-2.4.7 python-dateutil-2.8.1 pytz-2020.1 scipy-1.5.0 tornado-6.0.4 typing-extensions-3.7.4.2 utm-0.5.0
+```
+[More Details](https://pypi.org/project/arlpy/)
+
+Go the the folder where you have file name `bellhop.ipynb` using cd command,
+i.e, 
+    $ cd local-folder-path-for-bellhop.ipynb
+
+### Usage - Running Jupyter notebook
+
+Launch with:
+
+    $ jupyter notebook
+    
+it will open up interactive python notebook into your default browser. Click on the file name `bellhop.ipynb` and it will bring up the sample notebook which shows you how to run the basic bellhop simulation.
+
