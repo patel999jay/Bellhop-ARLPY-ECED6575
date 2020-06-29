@@ -119,9 +119,9 @@ You need some configuration before starting Jupyter notebook remotely. See [Runn
 
 ### Example Notebook of Bellhop
 
-You can find the example notebook of Bellhop in the repo folder named `sample`. Follow the instruction and commands in the notebook to perform basic simulations with bellhop.
+You can find the example notebook of Bellhop in the repo folder named `sample notebook`. Follow the instruction and commands in the notebook to perform basic simulations with bellhop.
 
-* If you want to see the notebook output figures then download `sample/bellhop.html` and open in your browser, it will open up notebook with all the output graphs. 
+* If you want to see the notebook output figures then download `sample notebook/bellhop.html` and open in your browser, it will open up notebook with all the output graphs. 
 
 ## Troubleshoot
 
