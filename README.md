@@ -88,6 +88,10 @@ or
 
     $ sudo -H pip3 install arlpy
 
+- [Windows 10](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/Installation%20Manual_draft.pdf)
+- [Mac OS](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/MacOS%20Installation%20Manual.pdf)
+
+
 [More Details](https://pypi.org/project/arlpy/)
 
 ## Step 3. Interactive IPython Notebooks - Jupyter Notebook (Optional)
