@@ -2,11 +2,6 @@
 --------------------------------------------------------------------------------------------------
 ### Author : Jay Patel, Dalhousie University, NS, Canada
 
-| Link | DESCRIPTION |
-| ------ | ------ |
-| [Bellhop Simulation](https://patel999jay.github.io/post/bellhop-acoustic-toolbox/) | Bellhop - Ray Tracing |
-| [Bellhop Sample Notebook](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/bellhop.ipynb) | Bellhop Sample Notebook |
-
 `Bellhop Python Simulation` relies on the following libraries:
 ```bash
 - fortran compiler
@@ -30,6 +25,11 @@ If you have them then go for the GNU compiler, type:
     export FC=gfortran
     ```
 `Acoustic Toolbox` is in repo folder named `AcousticToolbox`. You can download from there or follow the instruction below.
+
+| Link | DESCRIPTION |
+| ------ | ------ |
+| [Bellhop Simulation](https://patel999jay.github.io/post/bellhop-acoustic-toolbox/) | Bellhop - Ray Tracing |
+| [Bellhop Sample Notebook](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/bellhop.ipynb) | Bellhop Sample Notebook |
 
 ## Install latest `Acoustic Toolbox` (March 2019) 
 Please make sure you have newer version of [Bellhop](https://oalib-acoustics.org/).
