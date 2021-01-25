@@ -2,8 +2,10 @@
 --------------------------------------------------------------------------------------------------
 ### Author : Jay Patel, Dalhousie University, NS, Canada
 
-
-- You can find more details [here](https://patel999jay.github.io/post/bellhop-acoustic-toolbox/) on my blog post.
+| Link | DESCRIPTION |
+| ------ | ------ |
+| [Bellhop Simulation](https://patel999jay.github.io/post/bellhop-acoustic-toolbox/) | Bellhop - Ray Tracing |
+| [Bellhop Sample Notebook](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/bellhop.ipynb) | Bellhop Sample Notebook |
 
 `Bellhop Python Simulation` relies on the following libraries:
 ```bash
