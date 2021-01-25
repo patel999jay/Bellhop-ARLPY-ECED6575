@@ -2,6 +2,8 @@
 --------------------------------------------------------------------------------------------------
 ### Author : Jay Patel, Dalhousie University, NS, Canada
 
+You can find more details [here](https://patel999jay.github.io/post/bellhop-acoustic-toolbox/).
+
 `Bellhop Python Simulation` relies on the following libraries:
 ```bash
 - fortran compiler
