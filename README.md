@@ -2,7 +2,8 @@
 --------------------------------------------------------------------------------------------------
 ### Author : Jay Patel, Dalhousie University, NS, Canada
 
-You can find more details [here](https://patel999jay.github.io/post/bellhop-acoustic-toolbox/).
+
+- You can find more details [here](https://patel999jay.github.io/post/bellhop-acoustic-toolbox/) on my blog post.
 
 `Bellhop Python Simulation` relies on the following libraries:
 ```bash
