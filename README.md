@@ -35,7 +35,7 @@ If you have them then go for the GNU compiler, type:
 Please make sure you have newer version of [Bellhop](https://oalib-acoustics.org/).
 ```bash
 cd ${HOME}/Documents
-wget http://telecom.dei.unipd.it/ns/woss/files/at.zip
+wget http://oalib.hlsresearch.com/AcousticsToolbox/at_2020_11_4.zip
 tar -xzf at.zip
 cd at/at
 make
