@@ -1,6 +1,8 @@
 # ECED6575 - Bellhop Simulation
---------------------------------------------------------------------------------------------------
-### Author : Jay Patel, Dalhousie University, NS, Canada
+
+##### Author : Jay Patel, Dalhousie University, NS, Canada
+
+
 
 `Bellhop Python Simulation` relies on the following libraries:
 ```bash
