@@ -36,8 +36,8 @@ Please make sure you have newer version of [Bellhop](https://oalib-acoustics.org
 ```bash
 cd ${HOME}/Documents
 wget http://oalib.hlsresearch.com/AcousticsToolbox/at_2020_11_4.zip
-tar -xzf at.zip
-cd at/at
+unzip at_2020_11_4.zip
+cd at_2020_11_4
 make
 sudo make install
 ```
