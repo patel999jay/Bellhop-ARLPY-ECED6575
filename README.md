@@ -34,7 +34,7 @@ If you have them then go for the GNU compiler, type:
 |2.| [Bellhop Sample Notebook](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/bellhop.ipynb) | Bellhop Sample Notebook |
 |3.| [Bellhop another usecase Notebook](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/SampleNotebookBellhop2021.ipynb) | Bellhop another usecase Notebook |
 
-## Install latest `Acoustic Toolbox` (March 2019) 
+## Install latest `Acoustic Toolbox` (March 2019) - (instruction for Linux-base machines)
 Please make sure you have newer version of [Bellhop](https://oalib-acoustics.org/).
 ```bash
 cd ${HOME}/Documents
