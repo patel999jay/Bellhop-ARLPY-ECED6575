@@ -154,4 +154,7 @@ It will show you path of your bellhop.exe, same like this,
 
   **1. M. Chitre 2020, “ARLPY python toolbox”** , https://github.com/org-arl/arlpy 
   
-  **2. Ocean Acoustics Library.https://oalib-acoustics.org/**, Retrieved August 11, 2020.   
+  **2. Ocean Acoustics Library.** https://oalib-acoustics.org/, Retrieved August 11, 2020.   
+  
+  **3. Jay Patel and Mae Seto,** Underwater channel characterization for shallow water multi-domain communications, Proceedings of Meetings on Acoustics 40, 070014 (2020),
+https://doi.org/10.1121/2.0001316, Retrieved July 07, 2021.
