@@ -34,7 +34,7 @@ If you have them then go for the GNU compiler, type:
 |1.| [Bellhop Simulation](https://patel999jay.github.io/post/bellhop-acoustic-toolbox/) | Bellhop - Ray Tracing |
 |2.| [Bellhop Sample Notebook](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/bellhop.ipynb) | Bellhop Sample Notebook |
 |3.| [Bellhop another usecase Notebook](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/SampleNotebookBellhop2021.ipynb) | Bellhop another usecase Notebook [(PDF)](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/SampleNotebookBellhop2021%20-%20Jupyter%20Notebook.pdf) |
-|4.| [Bellhop Introduction](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/Bellhop_Introduction_2021.pdf) | Bellhop Introduction [(PDF)](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/Bellhop_Introduction_2021.pdf) |
+|4.| [Bellhop Introduction](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/Bellhop_Introduction_2021.ipynb) | Bellhop Introduction [(PDF)](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/Bellhop_Introduction_2021.pdf) |
 
 ## Install latest `Acoustic Toolbox` (March 2019) 
 #### instruction for Linux-base machines
