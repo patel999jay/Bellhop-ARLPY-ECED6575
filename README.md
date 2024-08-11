@@ -47,6 +47,7 @@ unzip at_2020_11_4.zip
 cd at_2020_11_4
 make
 sudo make install
+sudo ldconfig
 ```
 If something goes wrong, you need to do `make clean` in order to clear all necessary files and then again run the above mentioned steps.
 
