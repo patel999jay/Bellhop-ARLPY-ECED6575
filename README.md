@@ -141,6 +141,10 @@ You can find the example notebook of Bellhop in the repo folder named `sample no
 
 * If you want to see the notebook output figures then download `sample notebook/bellhop.html` and open in your browser, it will open up notebook with all the output graphs. 
 
+### simple plotting GUI for ARLPY
+
+You can find this cool small GUI tool [here](https://github.com/patel999jay/arlpy_gui).
+
 ## Troubleshoot
 
 To chech you have correctly set your PATH for acoustic toolbox, please type this in your command prompt
