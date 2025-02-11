@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Bellhop-ARLPY-ECED6575"
+abstract: "This repository is used in ECED 6575 at Dalhousie University to teach students Acoustic Toolbox & Bellhop."
+authors:
+  - family-names: "Patel"
+    given-names: "Jay"
+    affiliation: "Dalhousie University, NS, Canada"
+    orcid: "https://orcid.org/0000-0003-0811-3977"  
+version: "1.0.0"  
+date-released: 2020-05-05  
+url: "https://github.com/patel999jay/Bellhop-ARLPY-ECED6575"
+repository-code: "https://github.com/patel999jay/Bellhop-ARLPY-ECED6575"
+license: "MIT" 
