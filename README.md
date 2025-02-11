@@ -36,16 +36,18 @@ If you have them then go for the GNU compiler, type:
 |2.| [Bellhop Sample Notebook](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/bellhop.ipynb) | Bellhop Sample Notebook |
 |3.| [Bellhop another usecase Notebook](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/SampleNotebookBellhop2021.ipynb) | Bellhop another usecase Notebook [(PDF)](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/SampleNotebookBellhop2021%20-%20Jupyter%20Notebook.pdf) |
 |4.| [Bellhop Introduction](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/Bellhop_Introduction_2021.ipynb) | Bellhop Introduction [(PDF)](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/Bellhop_Introduction_2021.pdf) |
+|5.| [Simple plotting GUI Tool for ARLPY](https://github.com/patel999jay/arlpy_gui) | Simple plotting GUI Tool for ARLPY |
 
 ## Install latest `Acoustic Toolbox` (March 2019) 
-#### instruction for Linux-base machines
+#### 1. instruction for Linux-base machines
 Please make sure you have newer version of [Bellhop](https://oalib-acoustics.org/).
 ```bash
 cd ${HOME}/Documents
-wget http://oalib.hlsresearch.com/AcousticsToolbox/at_2020_11_4.zip
+wget http://oalib.hlsresearch.com/AcousticsToolbox/at_2024_12_25.zip
 unzip at_2020_11_4.zip
 cd at_2020_11_4
-make
+make clean
+make all
 sudo make install
 sudo ldconfig
 ```
@@ -55,6 +57,18 @@ Once installed, let's tell the system where to find our new libraries: ( Please 
 ```bash
 export PATH=/home/ns/Documents/at/at/Bellhop:/home/ns/Documents/at/at/:$PATH
 ```
+#### 2. instruction for Windows-based machines
+Please download the binary files from the [Bellhop](https://oalib-acoustics.org/). You can find them on this [page](http://oalib.hlsresearch.com/AcousticsToolbox/) -- [Here](http://oalib.hlsresearch.com/AcousticsToolbox/atWin10_2020_11_4.zip).
+
+## Note ⚠️
+**Important:** This is a critical instruction from [Ocean Acoustics Library - OALIB](https://oalib-acoustics.org/). **Look at the compile dates carefully!**
+
+    at source code (zip file) for Mac, Linux, or Windows. Binaries are *NOT* provided. (2024_12_25) ; you need to build this. You can use the above commands to build this. 
+    at Binaries (zip file) for Windows 10. This version is older than the one above. (The source code is also included so that you can access the compatible Matlab routines that read/write model input/output.) *(2020_11_4)*
+
+    The Fortran2008 source code should be fully portable. The Windows10 binaries were compiled for a plain vanilla Intel architecture. Therefore they will likely be slower that one that you compile yourself for the native architecture.
+
+
 ## Step 1. Install compilers and building tools
 
 First let's check which Linux are you running with the command:
@@ -141,7 +155,7 @@ You can find the example notebook of Bellhop in the repo folder named `sample no
 
 * If you want to see the notebook output figures then download `sample notebook/bellhop.html` and open in your browser, it will open up notebook with all the output graphs. 
 
-### simple plotting GUI for ARLPY
+### Simple plotting GUI for ARLPY
 
 You can find this cool small GUI tool [here](https://github.com/patel999jay/arlpy_gui).
 
