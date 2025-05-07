@@ -38,29 +38,9 @@ If you have them then go for the GNU compiler, type:
 |4.| [Bellhop Introduction](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/Bellhop_Introduction_2021.ipynb) | Bellhop Introduction [(PDF)](https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/blob/master/samplenotebook/Bellhop_Introduction_2021.pdf) |
 |5.| [Simple plotting GUI Tool for ARLPY](https://github.com/patel999jay/arlpy_gui) | Simple plotting GUI Tool for ARLPY |
 
-## Install latest `Acoustic Toolbox` (March 2019) 
-#### 1. instruction for Linux-base machines
-Please make sure you have newer version of [Bellhop](https://oalib-acoustics.org/).
-```bash
-cd ${HOME}/Documents
-wget http://oalib.hlsresearch.com/AcousticsToolbox/at_2024_12_25.zip
-unzip at_2020_11_4.zip
-cd at_2020_11_4
-make clean
-make all
-sudo make install
-sudo ldconfig
-```
-If something goes wrong, you need to do `make clean` in order to clear all necessary files and then again run the above mentioned steps.
+## Install latest `Acoustic Toolbox` (Dec 2024) 
 
-Once installed, let's tell the system where to find our new libraries: ( Please replace `ns` with your `hostname`)
-```bash
-export PATH=/home/ns/Documents/at/at/Bellhop:/home/ns/Documents/at/at/:$PATH
-```
-#### 2. instruction for Windows-based machines
-Please download the binary files from the [Bellhop](https://oalib-acoustics.org/). You can find them on this [page](http://oalib.hlsresearch.com/AcousticsToolbox/) -- [Here](http://oalib.hlsresearch.com/AcousticsToolbox/atWin10_2020_11_4.zip).
-
-## Note ⚠️
+### Note ⚠️
 **Important:** This is a critical instruction from [Ocean Acoustics Library - OALIB](https://oalib-acoustics.org/). **Look at the compile dates carefully!**
 
     at source code (zip file) for Mac, Linux, or Windows. Binaries are *NOT* provided. (2024_12_25) ; you need to build this. You can use the above commands to build this. 
@@ -68,6 +48,44 @@ Please download the binary files from the [Bellhop](https://oalib-acoustics.org/
 
     The Fortran2008 source code should be fully portable. The Windows10 binaries were compiled for a plain vanilla Intel architecture. Therefore they will likely be slower that one that you compile yourself for the native architecture.
 
+
+#### 1. instruction for Linux-base machines
+Please make sure you have newer version of [Bellhop](https://oalib-acoustics.org/).
+```bash
+cd ${HOME}/Documents
+wget http://oalib.hlsresearch.com/AcousticsToolbox/at_2024_12_25.zip
+unzip at_2024_12_25.zip
+cd at
+make clean
+make all
+sudo make install
+sudo ldconfig
+```
+If something goes wrong, you need to do `make clean` in order to clear all necessary files and then again run the above mentioned steps.
+
+### Note ⚠️
+**Important:** Please make proper changes in the `at/MakeFile` about PC/the system architecture details correctly. You may need to specify an architecture flag under gfortran:
+```
+-mcpu=apple-m2 ( for M2 processor)
+-mcpu=ARMv8.6-A ( for generic ARM processor instruction sets)
+```
+For the **Linux** : Make sure you have this line uncommented:
+```
+# This is for Linux
+export FFLAGS= -march=native -Bstatic -Waliasing -Wampersand              -Wintrinsics-std -Wno-tabs -Wintrinsic-shadow -Wline-truncation         -std=gnu  -O1 -ffast-math -funroll-all-loops -fomit-frame-pointer -mtune=native
+# This is for Mac
+# export FFLAGS= -mcpu=apple-m2 -Bstatic -Waliasing -Wampersand              -Wintrinsics-std -Wno-tabs -Wintrinsic-shadow -Wline-truncation         -std=gnu  -O1 -ffast-math -funroll-all-loops -fomit-frame-pointer
+```
+For more details, checkout this issue -- **gfortran doesn't work**: [https://github.com/patel999jay/Bellhop-ARLPY-ECED6575/issues/3]
+
+
+Once installed, let's tell the system where to find our new libraries: ( Please replace `ns` with your `hostname`)
+```bash
+export PATH=/home/ns/Documents/at/at/Bellhop:/home/ns/Documents/at/at/:$PATH
+```
+
+#### 2. instruction for Windows-based machines
+Please download the binary files from the [Bellhop](https://oalib-acoustics.org/). You can find them on this [page](http://oalib.hlsresearch.com/AcousticsToolbox/) -- [Here](http://oalib.hlsresearch.com/AcousticsToolbox/atWin10_2020_11_4.zip).
 
 ## Step 1. Install compilers and building tools
 
