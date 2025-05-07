@@ -64,11 +64,8 @@ sudo ldconfig
 If something goes wrong, you need to do `make clean` in order to clear all necessary files and then again run the above mentioned steps.
 
 ### Note ⚠️
-**Important:** Please make proper changes in the `at/MakeFile` about PC/the system architecture details correctly. You may need to specify an architecture flag under gfortran:
-```
--mcpu=apple-m2 ( for M2 processor)
--mcpu=ARMv8.6-A ( for generic ARM processor instruction sets)
-```
+**Important:** Please make proper changes in the `at/MakeFile` about PC/the system architecture details correctly. You may need to specify an architecture flag under gfortran if it is `apple-m2` or `generic ARM/native`. 
+
 For the **Linux** : Make sure you have this line uncommented:
 ```
 # This is for Linux
